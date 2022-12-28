@@ -8,7 +8,7 @@ export default createGlobalStyle`
         box-sizing: border-box;
     }
 
-    body{
+    body {
         background-color: ${({theme}) => theme.COLORS.BACKGROUND_800};
         color: ${({theme}) => theme.COLORS.WHITE};
 
