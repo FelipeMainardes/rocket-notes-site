@@ -4,14 +4,14 @@ import {ThemeProvider} from 'styled-components';
 import GlobalStyles from './styles/global';
 import reportWebVitals from './reportWebVitals';
 import theme from './styles/theme';
-import {Details} from './pages/Details';
+import {Home} from './pages/Home';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     <ThemeProvider theme = {theme}>
       <GlobalStyles/>
-      <Details />
+      <Home />
     </ThemeProvider>
   </React.StrictMode>
 );
